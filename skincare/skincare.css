@@ -1,0 +1,169 @@
+/*normal system of colors
+     	 
+     	h1{
+     		color: pink
+     	}
+     	h2{
+     		color: red
+     	}
+
+     	li{
+     		color: blue
+     	}*/
+/*hexadecimal system of colors
+     	h1{
+     		color: #884971
+     	}
+     	h2{
+     		color: #D9ABC8
+     	}
+
+     	li{
+     		color: #391B2E
+     	}*/
+
+/* RGB system of colors
+     	h1{
+     		color: rgb(0,255,0) /*green*/
+     	/* }
+     	h2{
+     		color: rgb(100,0,100) /*purple*/
+     	/*}
+
+     	li{
+     		color: rgb(50,50,150) /*dark blue*/
+     	/*} */
+/*RGBA system of colors i.e transparency*/
+      /* h1{
+     		color: rgba(255,0,0,0.3) /*green*/
+     	/*}
+     	/*h2{
+     		color: rgba(255,0,0,0.6) /*purple*/
+     	/*}
+
+     	li{
+     		color: rgba(255,0,0,0.9) /*dark blue*/
+     	/*}*/
+
+
+ /*to get a colorful background for the line of text of h1*/
+        h1{
+     		color:rgb(75,0,130);      
+     		background:rgb(144,238,144);  
+ /*to get border around h1*/
+     		/*border-style: solid;
+     		border-width: 2px;
+     		border-color: blue;*/
+     /*shortcut method for above*/	
+             border: 2px solid orange;	
+ /*fonts : font family;*/
+             /*font-family: arial;*/ /*this is normal way to do but in the next line i used google fonts and did as it has more options*/
+               font-family: 'Amatic SC', cursive;
+ /* fonts: font size*/;
+             font-size: 40px;
+ /*text allign*/
+             text-align: center;
+           
+     	}
+     	h2{
+     		color:rgb(220,20,60);
+     		font-family: 'Raleway', sans-serif;
+ /*text decoration*/
+            text-decoration: underline;
+
+     	}
+     	h3{
+     		color: rgb(205,92,92);
+     		border: 1px dashed lightcoral;
+     		font-family: 'Indie Flower', cursive;
+     	}
+     	h4{
+     		color: rgb(0,0,0);
+     		background:rgb(221,160,221);
+     		border: 2px solid orange;	
+     	}
+
+     	li{
+     		color: darkblue;
+     		font-family: candara;
+     		font-size: 17px;
+ /*fonts: font weight;*/
+            font-weight: bold;
+
+
+     	}
+ 
+     	p{
+     		
+     	font-family: 'Assistant', sans-serif;
+        font-size: 16px;
+ /*fonts: font height, usually 1.5-2, depends on font*/
+        font-height:1.5; 
+        font-weight: bold;
+         }
+ /*background color*/
+    /* body{
+     	background: peachpuff;
+     }*/
+ /*image as background*/
+       body{
+ 	   background: url(https://i.pinimg.com/236x/9e/3b/37/9e3b37d0f3ed8538035fc211bd953b68.jpg);
+ 	   /*https://previews.123rf.com/images/natalyastepowaya/natalyastepowaya1907/natalyastepowaya190700209/127909025-skin-care-cosmetics-in-a-frame-of-fresh-roses-essence-oil-on-a-pink-and-white-desk-beauty-background.jpg*/
+ 	   background-repeat: no-repeat;
+ 	   background-size: cover;
+
+ 	}    
+
+ 	   h4{
+ 	   	font-family: arial;
+ 	   }
+
+ 	   h5{
+ 	   	color: rgb(199,21,133);
+/*fonts using cutom fonts i.e google fonts. 2nd llink in html is also connected to this*/
+        font-family: 'Amatic SC', cursive;
+ 	   	font-size: 30px;
+ 	    font-weight:normal;
+/*box model concept */
+/*content width and height. height is not used here as it will just incease the box size. here px is used but % can also be used*/
+        width: 600px;
+/*border top,bottom,left,right*/
+        border-top:  1.5px solid yellow;
+        border-bottom:  1.5px solid yellow;
+        border-left: 1.5px solid yellow;
+        border-right: 1.5px solid yellow;
+/*padding i.e space between elemnt and border*/
+/*padding,padding-l,r,top,bottom can be used*/
+        padding: 10px;
+        padding-top: 20px;
+ /*margin can be used to set distance between two elements*/
+        margin: 30px;
+ /*margin-l,r,top,bottom can be used*/
+ 	   }
+ 	   td{
+ 	   	width: 100px;
+ 	   	height: 100px;
+ 	   }
+       .vertical{
+       	border-right: 1px solid blue;
+       	border-left:  1px solid blue;
+       }
+
+       .horizontal{
+       	border-top: 1px solid blue;
+       	border-bottom:  1px solid blue;
+       }
+       table{
+       	margin: auto;  /*using margin and setting to auto to get the board to center*/
+       }
+ 	   footer{
+ 	   	text-align: center;
+ 	   	font-family:arial; 
+ 	   }
+
+
+
+
+ 	
+
+ 
